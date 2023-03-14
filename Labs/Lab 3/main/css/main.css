@@ -1,0 +1,264 @@
+.body
+{
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+  background: #F7F7F7;
+}
+.main
+{
+  margin-bottom: auto;
+  margin-top: 0px;
+  width: 100%;
+}
+.top
+{
+  flex: auto;
+}
+.top__upper
+{
+  background-image:url(../images/header.png);
+}
+.upper__nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.nav__title
+{
+  margin-left: auto;
+  margin-right: auto;
+  height: 29px;
+  width: fit-content;
+  font-weight: 400;
+  font-family: 'Lora', serif;
+  font-size: 26px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.nav__title_the-road-ahead
+{
+  color: #2E2E2E;
+}
+.nav__bunch-of-referals
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-right: auto;
+  width: 336px;
+}
+.bunch-of-referals__referal
+{
+  display: inline-flex;
+  padding: 0;
+  justify-content: space-between;
+  font-family: "Oxygen";
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+}
+.bunch-of-referals__referal_the-road-ahead
+{
+  color: #2E2E2E;
+}
+.upper__page-header
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.page-header__header
+{
+  font-weight: 400;
+  font-family: "Lora", serif;
+  font-size: 50px;
+  line-height: 118%;
+  color: #FFFFFF;
+  text-align: center;
+}
+.page-header__underheader
+{
+  font-family: "Oxygen";
+  font-size: 17px;
+  font-weight: 400;
+  line-height: 118%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.63);
+}
+.page-header__button
+{
+  height: 44px;
+  width: 167px;
+  border-radius: 3px;
+  border: 0px;
+  background-color: #DD783F;
+  color: #FFFFFF;
+  align-self: center;
+}
+.top__bottom
+{
+  padding: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  height: 65px;
+  margin: auto;
+  background-color: #FFFFFF;
+}
+.bottom__referal
+{
+  font-family: "Lora";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 143%;
+  text-align: center;
+  color: #768088;
+}
+.content__div
+{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+.div__underline
+{
+  height: 1px;
+  width: 188px;
+  background-color: #DEDEDE;
+  margin-bottom: 23px;
+}
+.div__title
+{
+  font-family: 'Oxygen';
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 135%;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #2E2E2E;
+}
+.posts__post_the-road-ahead
+{
+  background-image: url( "../images/the_road_ahead.png");
+}
+.posts__post_from-top-down
+{
+  background-image: url( "../images/from_top_down.png");
+}
+.post__title_featured
+{
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 27px;
+  line-height: 111%;
+  color: #FFFFFF;
+}
+.post__span_featured
+{
+  font-family: 'Oxygen';
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 179%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.post__footer_featured
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-right: auto;
+  width: 300px;
+}
+.author__text
+{
+  font-family: 'Oxygen';
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 292%;
+  color: rgba(255, 255, 255, 0.7);
+}
+.post__title_recent
+{
+  font-family: 'Lora';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 131%;
+  color: #101315;
+}
+.post__span_recent
+{
+  font-family: 'Oxygen';
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 146%;
+  color: #7A7A7A;
+}
+.post__footer_recent
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-right: auto;
+  width: 300px;
+}
+.author__author-name_recent
+{
+  font-family: 'Oxygen';
+  font-weight: 400;
+  font-size: 11px;
+  line-height: 318%;
+  color: #999999;
+}
+.author__date_recent
+{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 292%;
+  color: #999999;
+}
+
+.title__header
+{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 102%;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #2E2E2E;
+}
+.title__underheader
+{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 118%;
+  text-align: center;
+  color: rgba(46, 46, 46, 0.63);
+}
+
+.nav__main_the-road-ahead
+{
+  color: #2E2E2E;
+}
+.text__span
+{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 146%;
+  color: #101315;
+}
+

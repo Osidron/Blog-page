@@ -1,0 +1,26 @@
+.footer
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgba(35, 47, 56, 0.6);
+}
+.footer__title
+{
+  margin-left: auto;
+  margin-right: auto;
+  height: 29px;
+  font-weight: 400;
+  font-family: 'Lora', serif;
+  font-size: 26px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.footer__bunch-of-referals
+{
+  display: flex;
+  align-items: center;
+  justify-content: space-between; 
+  margin-right: auto;
+  width: 336px;
+}
