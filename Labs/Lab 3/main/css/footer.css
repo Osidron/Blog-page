@@ -1,11 +1,16 @@
 .footer
 {
   display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background: rgba(35, 47, 56, 0.6);
+  background-image: url("../images/footer.png");
+  background-size: cover;
 }
-.footer__title
+.footer__nav
+{
+  display: flex;
+  background-color: rgba(35, 47, 56, 0.6);
+  width:inherit;
+}
+.nav__title
 {
   margin-left: auto;
   margin-right: auto;
@@ -16,10 +21,10 @@
   line-height: 100%;
   color: #FFFFFF;
 }
-.footer__bunch-of-referals
+.nav__bunch-of-referals
 {
   display: flex;
-  align-items: center;
+  align-self: center;
   justify-content: space-between; 
   margin-right: auto;
   width: 336px;

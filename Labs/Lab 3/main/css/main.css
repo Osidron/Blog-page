@@ -1,15 +1,13 @@
-.body
+body
 {
-  display: flex;
-  margin: 0px;
-  padding: 0px;
+  margin: 0;
+  padding: 0;
   background: #F7F7F7;
 }
 .main
 {
-  margin-bottom: auto;
-  margin-top: 0px;
-  width: 100%;
+  margin: 0;
+  padding: 0;
 }
 .top
 {
@@ -102,7 +100,6 @@
 }
 .top__bottom
 {
-  padding: 250px;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -127,14 +124,14 @@
   align-items: center;
   justify-content: space-around;
 }
-.div__underline
+.section__underline
 {
   height: 1px;
   width: 188px;
   background-color: #DEDEDE;
   margin-bottom: 23px;
 }
-.div__title
+.section__title
 {
   font-family: 'Oxygen';
   font-weight: 400;
@@ -144,9 +141,18 @@
   letter-spacing: 2px;
   color: #2E2E2E;
 }
+.post
+{
+  background-color: #FFFFFF;
+}
+.posts__post_featured
+{
+  background-size: cover;
+}
 .posts__post_the-road-ahead
 {
   background-image: url( "../images/the_road_ahead.png");
+  background-size: cover;
 }
 .posts__post_from-top-down
 {
@@ -168,6 +174,13 @@
   line-height: 179%;
   color: rgba(255, 255, 255, 0.7);
 }
+.post__line
+{
+  height: 1px;
+  width: 200px;
+  background-color: #EFEFEF;
+  margin-bottom: 23px;
+}
 .post__footer_featured
 {
   display: flex;
@@ -175,6 +188,11 @@
   justify-content: space-between; 
   margin-right: auto;
   width: 300px;
+}
+.post__author_recent
+{
+  background-color: #FCFCFC;
+  border-radius: 0px;
 }
 .author__text
 {
@@ -226,39 +244,4 @@
   color: #999999;
 }
 
-.title__header
-{
-  font-family: 'Lora';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 50px;
-  line-height: 102%;
-  text-align: center;
-  letter-spacing: 2px;
-  color: #2E2E2E;
-}
-.title__underheader
-{
-  font-family: 'Oxygen';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 17px;
-  line-height: 118%;
-  text-align: center;
-  color: rgba(46, 46, 46, 0.63);
-}
-
-.nav__main_the-road-ahead
-{
-  color: #2E2E2E;
-}
-.text__span
-{
-  font-family: 'Oxygen';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 24px;
-  line-height: 146%;
-  color: #101315;
-}
 
