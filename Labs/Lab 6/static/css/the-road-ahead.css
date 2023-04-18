@@ -1,0 +1,82 @@
+.top__nav
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top__title
+{
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+}
+.text
+{
+  margin-left: 240px;
+  margin-right: 240px;
+  margin-top: 135px;
+  margin-bottom: 135px;
+}
+.bunch-of-referals__referal_the-road-ahead
+{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 167%;
+  letter-spacing: 0.6px;
+  text-transform: uppercase;
+  color: #2E2E2E;
+}
+.title__header
+{
+  font-family: 'Lora';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 50px;
+  line-height: 102%;
+  text-align: center;
+  letter-spacing: 2px;
+  color: #2E2E2E;
+}
+.title__underheader
+{
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 118%;
+  text-align: center;
+  color: rgba(46, 46, 46, 0.63);
+}
+.nav__title_the-road-ahead
+{
+  color: #2E2E2E;
+}
+.text__span
+{
+  width: fit-content;
+  white-space: pre;
+  font-family: 'Oxygen';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 146%;
+  color: #101315;
+}
+.nav__title
+{
+  margin-left: auto;
+  margin-right: auto;
+  height: 29px;
+  width: fit-content;
+  font-weight: 400;
+  font-family: 'Lora', serif;
+  font-size: 26px;
+  line-height: 100%;
+  color: #FFFFFF;
+}
+.nav__title_the-road-ahead
+{
+  color: #2E2E2E;
+}

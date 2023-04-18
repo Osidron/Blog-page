@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>  
+  <meta charset="UTF-8">
+  <title>Escape</title>
+  <link href="../static/css/footer.css" rel="stylesheet">
+  <link href="../static/css/main.css" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&family=Roboto&display=swap" rel="stylesheet">
+
+</head>
+<body>
+  <div class="main">
+    <header class="top">
+      <div class="top__upper upper">
+        <nav class="upper__nav nav">
+          <h3 class="nav__title">Escape</h3>
+          <nav class="nav__bunch-of-referals bunch-of-referals">
+            <a class="bunch-of-referals__referal" href="#" title="HOME"      >Home</a>
+            <a class="bunch-of-referals__referal" href="#" title="CATEGORIES">Categories</a>
+            <a class="bunch-of-referals__referal" href="#" title="ABOUT"     >About</a>
+            <a class="bunch-of-referals__referal" href="#" title="CONTACT"   >Contact</a>
+          </nav>
+        </nav>
+        <div class="upper__page-header page-header">
+          <h1 class="page-header__header"     >Let's do it together</h1>
+          <h2 class="page-header__underheader">We travel the world in search of stories. Come along for the ride.</h2>
+          <input class="page-header__button" value="View Latest Posts" type="submit" href="#">
+        </div>  
+      </div>
+      <nav class="top__bottom bottom">
+        <a class="bottom__referal" href="#" title="Nature"     >Nature</a>
+        <a class="bottom__referal" href="#" title="Photography">Photography</a>
+        <a class="bottom__referal" href="#" title="Relaxation" >Relaxation</a>
+        <a class="bottom__referal" href="#" title="Vacation"   >Vacation</a>
+        <a class="bottom__referal" href="#" title="Travel"     >Travel</a>
+        <a class="bottom__referal" href="#" title="Adventure"  >Adventure</a>
+      </nav>  
+    </header>
+    <div class="content">
+      <div class="content__section_featured section">
+        <h2 class="section__title">Featured posts</h2>
+        <div class="section__underline"></div>
+        <div class="section__posts_featured posts">
+          {{range .FeaturedPosts}}
+          <div class="{{.CSSImage}} posts__post_featured post">
+            <!-- <span class=" {{.CSSPrefix}} ">{{.CSSPrefixText}}</span>  -->
+            <h2 class="post__title_featured">{{.Title}}</h2>
+            <span class="post__span_featured">{{.Subtitle}}</span>
+            <div class="post__author_featured author">
+              <img class="author__author-picture" src="{{.Author_image}}" alt="Picture hasn't loaded :(" >
+              <h5 class="author__author-name_featured">{{.Author}}</h5>
+              <h5 class="author__date_featured">{{.Publish_date}}</h5>
+            </div>
+          </div>
+          {{end}}
+        </div>
+      </div>
+      <div class="content__section_recent section">
+        <h2 class="section__title">Most recent</h2>
+        <div class="section__underline"></div>
+        <div class="section__posts_recent posts">
+          {{range .RecentPosts}}
+          <div class="posts__post_recent post">
+            <img class="post__picture" src="{{.Image}}" alt="Picture hasn't loaded :(" >
+            <h3 class="post__title_recent">{{ .Title}}</h3>
+            <span class="post__span_recent">{{ .Subtitle}}</span>
+            <div class="post__author_recent author">
+              <img class="author__author-picture" src="{{.Author_image}}" alt="Picture hasn't loaded :(" >
+              <h5 class="author__author-name_recent">{{ .Author}}</h5>
+              <h5 class="author__date_recent">{{.Publish_date}}</h5>
+            </div>
+          </div>
+          {{end}}
+        </div>
+      </div>
+    </div>
+    <footer class="footer">
+      <div class="footer__upper upper">
+        <h2 class="upper__stay-in-touch">Stay in Touch</h2>
+        <div class="upper__underline"></div>
+          <form class="upper__email">
+            <input class="email__text" type="text" value="Enter your email address">
+            <input class="email__submit" type="submit" value="Submit">
+          </form>
+      </div>
+      <div class="footer__bottom bottom">
+        <h3 class="bottom__title">Escape</h3>
+        <nav class="bottom__bunch-of-referals bunch-of-referals">
+          <a class="bunch-of-referals__referal" href="#" title="HOME">Home</a>
+          <a class="bunch-of-referals__referal" href="#" title="CATEGORIES">Categories</a>
+          <a class="bunch-of-referals__referal" href="#" title="ABOUT">About</a>
+          <a class="bunch-of-referals__referal" href="#" title="Contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </div>  
+</body>
+</html>

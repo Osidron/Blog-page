@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Escape.</title>
+    <link href="../static/css/main.css" rel="stylesheet">
+    <link href="../static/css/footer.css" rel="stylesheet">
+    <link href="../static/css/the-road-ahead.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lora&family=Oxygen&family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="main">
+    <header class="top">
+      <nav class="top__nav nav">
+        <h3 class="nav__title nav__title_the-road-ahead">Escape.</h3>
+        <nav class="nav__bunch-of-referals bunch-of-referals">
+          <a class="bunch-of-referals__referal bunch-of-referals__referal_the-road-ahead" href="#" title="HOME">Home</a>
+          <a class="bunch-of-referals__referal bunch-of-referals__referal_the-road-ahead" href="#" title="CATEGORIES">Categories</a>
+          <a class="bunch-of-referals__referal bunch-of-referals__referal_the-road-ahead" href="#" title="ABOUT">About</a>
+          <a class="bunch-of-referals__referal bunch-of-referals__referal_the-road-ahead" href="#" title="Contact">Contact</a>
+        </nav>
+      </nav>
+      </nav>
+      <div class="top__title">
+        <h1 class="title__header">The Road Ahead</h1>
+        <h2 class="title__underheader">The road ahead might be paved - it might not be.</h2>
+        <img class="title_image" src="../static/images/the_road_ahead_blog.png">
+      </div>
+    </header>
+    <div class="content">
+      <div class="content__text text">
+        {{range .Text}}
+          <span class="text__span">{{.Paragraph}}</span>
+        {{end}}
+      </div>  
+    </div>
+    <footer class="footer">
+      <div class="footer__upper upper">
+        <h2 class="upper__stay-in-touch">Stay in Touch</h2>
+        <div class="upper__underline"></div>
+          <form class="upper__email">
+            <input class="email__text" type="text" value="Enter your email address">
+            <input class="email__submit" type="submit" value="Submit">
+          </form>
+      </div>
+      <div class="footer__bottom bottom">
+        <h3 class="bottom__title">Escape</h3>
+        <nav class="bottom__bunch-of-referals bunch-of-referals">
+          <a class="bunch-of-referals__referal" href="#" title="HOME">Home</a>
+          <a class="bunch-of-referals__referal" href="#" title="CATEGORIES">Categories</a>
+          <a class="bunch-of-referals__referal" href="#" title="ABOUT">About</a>
+          <a class="bunch-of-referals__referal" href="#" title="Contact">Contact</a>
+        </nav>
+      </div>
+    </footer>
+  </div>  
+</body>
+</html>
